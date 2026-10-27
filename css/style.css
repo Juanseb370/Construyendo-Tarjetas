@@ -119,10 +119,12 @@ body {
 }
 
 /* Botones de acción centrales */
+
 .card__actions {
     display: flex;
     gap: 15px;
     margin-bottom: 20px;
+    justify-content: center;
 }
 
 .card__action-btn {
@@ -134,18 +136,25 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    color: #7c3aed;
+    color: #7c3aed !important; 
     text-decoration: none;
     transition: all 0.2s ease;
     box-shadow: 0 2px 5px rgba(0,0,0,0.05);
 }
+
+.card__action-btn i {
+    font-size: 1rem;
+    color: #7c3aed !important; 
 
 .card__action-btn:hover {
     background-color: #7c3aed;
     color: #ffffff;
     border-color: #7c3aed;
 }
-
+}
+.card__action-btn:hover i {
+    color: #ffffff !important;
+}
 /* Footer de la tarjeta con redes sociales */
 .card__footer {
     background-color: #7c3aed;
