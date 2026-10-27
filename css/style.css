@@ -32,7 +32,7 @@ body {
     text-align: center;
 }
 
-/* Contenedor de Tarjetas */
+/* Contenedor de las Tarjetas */
 .cards-wrapper {
     display: flex;
     gap: 30px;
@@ -41,7 +41,7 @@ body {
     width: 100%;
 }
 
-/* Tarjeta individual (Metodología BEM) */
+/* Tarjeta individual */
 .card {
     background: #ffffff;
     width: 100%;
@@ -59,15 +59,14 @@ body {
     transform: translateY(-5px);
 }
 
-/* Header con Clip-Path */
+/* Header*/
 .card__header {
-    background: linear-gradient(135deg, #7c3aed, #a78bfa);
+    background: linear-gradient(135deg, #363538, #161a18);
     height: 120px;
     width: 100%;
     clip-path: polygon(0 0, 100% 0%, 100% 75%, 0 100%);
 }
 
-/* Contenedor de Avatar */
 .card__avatar-container {
     display: flex;
     justify-content: center;
@@ -118,7 +117,7 @@ body {
     margin-bottom: 20px;
 }
 
-/* Botones de acción centrales */
+/* Botones del centro */
 
 .card__actions {
     display: flex;
@@ -136,7 +135,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    color: #7c3aed !important; 
+    color: #2e353d !important; 
     text-decoration: none;
     transition: all 0.2s ease;
     box-shadow: 0 2px 5px rgba(0,0,0,0.05);
@@ -144,12 +143,12 @@ body {
 
 .card__action-btn i {
     font-size: 1rem;
-    color: #7c3aed !important; 
+    color: #0b0b0c !important; 
 
 .card__action-btn:hover {
-    background-color: #7c3aed;
+    background-color: #424242;
     color: #ffffff;
-    border-color: #7c3aed;
+    border-color: #172022;
 }
 }
 .card__action-btn:hover i {
@@ -157,7 +156,7 @@ body {
 }
 /* Footer de la tarjeta con redes sociales */
 .card__footer {
-    background-color: #7c3aed;
+    background-color: #1b1e20;
     display: flex;
     justify-content: space-around;
     padding: 15px 0;
