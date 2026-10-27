@@ -35,17 +35,18 @@ body {
 /* Contenedor de las Tarjetas */
 .cards-wrapper {
     display: flex;
-    gap: 30px;
+    gap: 60px;
     justify-content: center;
     flex-wrap: wrap;
     width: 100%;
+    row-gap: 100px;
 }
 
 /* Tarjeta individual */
 .card {
     background: #ffffff;
     width: 100%;
-    max-width: 340px;
+    max-width: 320px;
     border-radius: 12px;
     overflow: hidden;
     box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
@@ -53,6 +54,7 @@ body {
     flex-direction: column;
     position: relative;
     transition: transform 0.3s ease;
+    margin-bottom: 30px;
 }
 
 .card:hover {
